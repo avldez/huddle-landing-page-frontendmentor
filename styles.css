@@ -1,0 +1,125 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--violet);
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+    height: 59px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/*
+    Main
+*/
+
+main {
+    margin-top: 62px;
+}
+
+main div img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 55px;
+}
+
+main section div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section div h1 {
+    color: white;
+    padding: 0 10px 10px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+main section div p {
+    color: whitesmoke;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+main section div button {
+    display: block;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 210px;
+    height: 45px;
+    border-radius: 50px;
+    color: var(--violet);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: 2px 3px 7px -3px rgba(0,0,0,0.92);
+}
+
+main section div button:hover {
+    background-color: var(--soft-magenta);
+    cursor: pointer;
+}
+
+/*
+    Footer
+*/
+
+footer {
+    margin-top: 45px;
+}
+
+footer ul {
+    display: flex;
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer ul li {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+footer ul li span {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    color: white;
+}
+
+footer ul li:hover {
+    border-color: var(--soft-magenta);
+    cursor: pointer;
+}
+
+footer ul li:hover span {
+    color: var(--soft-magenta);
+    cursor: pointer;
+}

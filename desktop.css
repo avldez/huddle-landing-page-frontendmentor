@@ -1,0 +1,57 @@
+body {
+    background-image: url('./images/bg-desktop.svg');
+}
+
+header img {
+    height: 110px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin: 78px 0 0 65px;
+}
+
+main div img {
+    width: auto;
+}
+
+main section {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+main section div {
+    width: 550px;
+    margin: 0;
+}
+
+main section div h1{
+    text-align: left;
+    font-size: 2.5em;
+}
+
+main section div p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #FDEDED;
+}
+
+main section div button {
+    margin: 28px 0;
+    width: 210px;
+    height: 58px;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer ul {
+    width: 92%;
+    justify-content: right;
+    gap: 20px;
+}
